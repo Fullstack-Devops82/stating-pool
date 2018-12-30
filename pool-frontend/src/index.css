@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+input {
+  color: #6c7c97;
+  font-family: "Roboto";
+}
+
+p,
+li,
+button,
+a {
+  font-family: "Roboto";
+}
+
+p.warning,
+p.message {
+  font-weight: bold;
+}
+
+p.message {
+  color: rgba(162, 227, 107, 1);
+}
+
+p.warning {
+  color: #ffa500;
+}
+
+p span,
+li span {
+  font-weight: bold;
+}
+
+a {
+  color: rgba(162, 227, 107, 1);
+  text-decoration: none;
+}
+
+button {
+  border: 0;
+  background: #ffa500;
+  padding: 16px 24px;
+
+  text-decoration: none;
+  text-transform: uppercase;
+
+  color: black;
+
+  border-radius: 4px;
+
+  font-size: 16px;
+  font-weight: 700;
+}
+
+button.green {
+  background: rgba(162, 227, 107, 1);
+}
+
+button.small {
+  padding: 8px 12px;
+  font-size: 12px;
+}
+
+button:disabled {
+  background: #222;
+  color: #888;
+}
+
+.noScroll {
+  overflow: hidden;
+}
+
+.inner {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.page .inner {
+  padding: 12px;
+}
+
+@media (min-width: 768px) {
+  .page .inner {
+    padding: 24px;
+  }
+}
+
+.centered {
+  text-align: center;
+}
+
+.inner.skinny {
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.page__title {
+  margin-bottom: 32px;
+}
+
+.page__intro-container {
+  text-align: center;
+  max-width: 768px;
+  margin: 24px auto;
+}
+
+.dark-bg {
+  background-color: rgba(153, 134, 117, 1);
+  color: black;
+}

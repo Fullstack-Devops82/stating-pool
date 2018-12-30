@@ -1,0 +1,68 @@
+#overlay {
+  z-index: 9;
+  position: fixed;
+  background-color: darkgrey;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  overflow-y: scroll;
+}
+
+#overlay.translucent {
+  background-color: rgba(0, 0, 0, 0.88);
+}
+
+#overlay.right {
+  top: 0;
+  bottom: 0;
+  left: 12px;
+  right: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+#overlay .overlay-body {
+  padding: 32px 12px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+#overlay .overlay-body .menu-toggle {
+  background: none;
+  border: none;
+}
+
+#overlay .overlay-body .menu-toggle img {
+  width: 32px;
+  height: 32px;
+}
+
+#overlay .overlay-body .itemsList {
+  list-style: none;
+  text-align: right;
+  margin-top: 48px;
+}
+
+#overlay .overlay-body .itemsList li button {
+  background: none;
+  border: 0;
+  padding: 0;
+  text-transform: none;
+  font-weight: 100;
+}
+
+#overlay .overlay-body .itemsList li {
+  padding: 8px 0;
+}
+
+#overlay .overlay-body .itemsList li a,
+#overlay .overlay-body .itemsList li button {
+  font-size: 32px;
+  text-decoration: none;
+  color: black;
+}

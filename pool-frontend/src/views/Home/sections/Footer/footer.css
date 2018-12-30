@@ -1,0 +1,22 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 25vh;
+  background: grey;
+  background: url("../../../../assets/bg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  flex-direction: column;
+  padding: 48px;
+}
+
+footer h4 {
+  color: white;
+}
+
+footer img {
+  height: 48px;
+}

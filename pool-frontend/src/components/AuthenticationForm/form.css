@@ -1,0 +1,53 @@
+.form {
+  text-align: center;
+  max-width: 400px;
+  margin: 48px auto;
+}
+
+.form .input-pair {
+  margin: 32px auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.form .form__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.form .form__footer .input-pair {
+  margin: 0;
+}
+
+.form .input-pair.neben {
+  flex-direction: row;
+}
+
+.form .input-pair input[type="text"],
+.form .input-pair input[type="password"],
+.form .input-pair input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.form .input-pair.reduced-margin {
+  margin-bottom: 12px;
+}
+
+.form .input-pair.no-top-margin {
+  margin-top: 0;
+}
+
+.form .button-container {
+  margin: 48px auto 24px auto;
+}
+
+.form .input-pair label {
+  text-transform: uppercase;
+}

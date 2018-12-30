@@ -1,0 +1,236 @@
+.Pool .admin-control {
+  width: 100%;
+  text-align: right;
+}
+
+.Pool .expandable-item {
+  margin: 24px 0;
+}
+
+.Pool .expandable-item:first-of-type {
+  margin-top: 0;
+}
+
+.Pool.page .admin-panel {
+  width: 100%;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+
+.Pool .title-bar,
+.Pool .expandable-body {
+  border: 1px solid rgba(176, 176, 176, 1);
+  border-radius: 4px;
+}
+
+.Pool .title-bar {
+  padding: 4px 24px;
+  color: black;
+}
+
+.Pool .title-bar.small {
+  font-size: 80%;
+}
+
+.Pool .title-bar.small .action-buttons button {
+  padding: 0;
+  margin: 0;
+}
+
+.Pool .title-bar,
+.Pool .title-bar .info-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Pool .title-bar .coin-logo {
+  height: 48px;
+}
+
+.Pool .title-bar .coin-title {
+  color: #6c7c97;
+  font-size: 32px;
+  margin: 0;
+  margin-left: 16px;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+.Pool .title-bar .status-icon {
+  color: rgba(162, 227, 107, 1);
+  margin-left: 16px;
+  font-size: 24px;
+  background: none;
+}
+
+.Pool .title-bar .status-icon.inactive {
+  color: #ffa500;
+}
+
+.Pool .title-bar .action-buttons {
+  margin-left: auto;
+}
+
+.Pool .title-bar .action-buttons button {
+  margin: 8px;
+  padding: 8px;
+  background: none;
+  border: none;
+  color: #6c7c97;
+  font-size: 24px;
+}
+
+.Pool .title-bar .action-buttons button.settings i {
+  color: #ffa500;
+}
+
+.Pool .title-bar .action-buttons button.settings:hover i {
+  color: black;
+}
+
+.Pool .title-bar .action-buttons button.active i {
+  color: rgba(162, 227, 107, 1);
+}
+
+.Pool .title-bar .action-buttons button:hover {
+  color: rgba(162, 227, 107, 1);
+}
+
+.Pool .expandable-body {
+  border-top: none;
+  padding: 24px;
+  text-align: left;
+  overflow-x: scroll;
+}
+
+.Pool .select-container {
+  margin-bottom: 12px;
+  display: flex;
+}
+
+.Pool .select-container select {
+  font-size: 16px;
+  font-family: Courier New, Courier, monospace;
+  margin: auto 4px;
+}
+
+.Pool .select-container,
+.Pool table {
+  font-family: Courier New, Courier, monospace;
+}
+
+.Pool table {
+  display: block;
+  table-layout: fixed;
+  overflow: scroll;
+  width: 100%;
+  font-size: 14px;
+  font-family: Courier New, Courier, monospace;
+  border-collapse: collapse;
+}
+
+/* Zebra striping */
+.Pool tr:nth-of-type(odd) {
+  background: #eee;
+}
+
+.Pool th {
+  background: rgba(153, 134, 117, 1);
+  color: black;
+  font-weight: bold;
+  padding: 8px 12px;
+}
+
+.Pool td,
+th {
+  padding: 6px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.Pool .coin-body h2 {
+  border-bottom: 1px solid rgba(176, 176, 176, 1);
+}
+
+.Pool h2,
+.Info.innerview h3 {
+  margin-top: 0;
+}
+
+.Pool h3 {
+  margin-bottom: 0;
+}
+
+.Info.innerview {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.Info.innerview .info-recent-stakes {
+  padding-left: 48px;
+}
+
+.Info.innerview .info-recent-stakes p {
+  margin: 12px 0 8px 0;
+}
+
+@media (max-width: 768px) {
+  .Pool .title-bar {
+    flex-direction: column;
+    padding: 24px 12px 12px 12px;
+  }
+
+  .Pool .title-bar .coin-logo {
+    height: 48px;
+  }
+
+  .Pool .title-bar .action-buttons,
+  .Pool .title-bar .info-area {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Pool .title-bar .action-buttons {
+    margin-left: 0;
+  }
+
+  .Info.innerview {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .Info.innerview .info-recent-stakes {
+    margin: 24px 0;
+    padding-left: 0;
+  }
+
+  .Info.innerview ul {
+    margin: 0;
+  }
+}
+
+.Withdraw.innerview {
+  max-width: 600px;
+}
+
+.Withdraw.innerview .withdraw-info .input-pair {
+  margin: 8px 0;
+  display: flex;
+}
+
+.Withdraw.innerview .withdraw-info label {
+  padding-right: 8px;
+  min-width: 180px;
+}
+
+.Withdraw.innerview .withdraw-info input[type="text"],
+.Withdraw.innerview .withdraw-info input[type="password"],
+.Withdraw.innerview .withdraw-info input[type="email"],
+.Withdraw.innerview .withdraw-info input[type="number"] {
+  color: #222;
+  width: 100%;
+  box-sizing: border-box;
+}

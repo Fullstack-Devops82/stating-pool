@@ -1,0 +1,52 @@
+.section__introduction .center-container,
+.section__introduction .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.section__introduction {
+  height: 80vh;
+  background: grey;
+  background: url("../../../../assets/bg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.section__introduction .center-container {
+  padding: 24px 24px 48px 24px;
+  margin-top: 48px;
+}
+
+.section__introduction .text {
+  max-width: 768px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section__introduction .button-container {
+  margin: 48px 0 0 0;
+}
+
+.section__introduction .text h3,
+.section__introduction .text h2,
+.section__introduction .text p {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.section__introduction .text p {
+  font-weight: 100;
+  line-height: 32px;
+  font-size: 16px;
+}
+
+.section__introduction .text h2 {
+  margin: 8px 0;
+  font-size: 48px;
+  font-weight: bold;
+}

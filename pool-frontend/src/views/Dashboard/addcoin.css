@@ -1,0 +1,40 @@
+.add-coin .inner {
+  width: 95vw;
+  max-width: 768px;
+}
+
+.add-coin .input-pair {
+  margin: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-coin .overlay-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.add-coin .input-pair label {
+  color: white;
+  padding-right: 8px;
+  min-width: 180px;
+}
+
+.add-coin .input-pair input[type="text"],
+.add-coin .input-pair input[type="password"],
+.add-coin .input-pair input[type="email"],
+.add-coin .input-pair input[type="number"] {
+  color: #222;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.add-coin .overlay-content button {
+  margin: 8px;
+}
+
+@media (min-width: 768px) {
+  .add-coin .input-pair {
+    flex-direction: row;
+  }
+}
